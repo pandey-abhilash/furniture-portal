@@ -1,18 +1,18 @@
 import React from 'react'
 import {BrowserRouter as Router, Redirect, Switch} from 'react-router-dom';
 import Route from 'react-router-dom/Route';
-import LoginForm from '../../components/forms/LoginForm'
-import RegistrationForm from '../../components/forms/RegistrationForm'
-import ForgetPassForm from '../../components/forms/ForgetPassForm'
+import Login from '../Pages/AuthPages/LoginContainer'
+import Register from '../Pages/AuthPages/RegisterContainer'
+import ForgetPass from '../Pages/AuthPages/ForgetPassContainer';
 
 export default class Auth extends React.Component{
     render(){
         return(
             <Router>
                 <Switch>
-            <Route path="/" exact  component={LoginForm}/>
-            <Route path="/register" exact  component={RegistrationForm}/>
-            <Route path="/forget" exact  component={ForgetPassForm}/>
+            <Route path="/" exact  component={Login}/>
+            <Route path="/register" exact  component={Register}/>
+            <Route path="/forget" exact  component={ForgetPass}/>
             <Redirect to='/'/>
             </Switch>
         </Router>

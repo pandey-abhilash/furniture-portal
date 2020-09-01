@@ -9,7 +9,7 @@ class ForgetPassForm extends React.Component {
   render() {
     return (
       <div className="forgetPass">
-        <Paper elevation={3}>
+      <Paper elevation={3} style={{padding:'20px'}}>
         
             <form className="textInput" noValidate autoComplete="off">
               <div className="forget">Forget Password ?</div>

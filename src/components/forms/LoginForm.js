@@ -26,8 +26,8 @@ class LoginForm extends React.Component {
   }
   render() {
     return (
-      <div className="loginform">
-        <Paper elevation={3}>
+      <div className="loginform" style={{margin:'auto'}}>
+        <Paper elevation={3} style={{padding:'20px'}}>
           <div className="loginheader">
               <div>
                 <PersonIcon/>

@@ -12,7 +12,7 @@ class RegistrationForm extends React.Component {
   render() {
     return (
       <div className="registerForm">
-        <Paper elevation={3}>
+       <Paper elevation={3} style={{padding:'20px'}}>
           <div className="header">
             <div>
               <PeopleIcon />
