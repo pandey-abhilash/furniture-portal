@@ -90,7 +90,7 @@ class RegistrationForm extends React.Component {
                   </Button>
                 </Grid>
                 <Grid item sm={12} xs={12} md={6} lg={6}>
-                  <Link style={{ fontSize: "12px" }}>Want to LogIn ?</Link>
+                  <Link href="/" style={{ fontSize: "12px" }}>Want to LogIn ?</Link>
                 </Grid>
               </Grid>
             </div>

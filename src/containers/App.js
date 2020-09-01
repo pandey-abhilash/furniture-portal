@@ -1,17 +1,15 @@
 import React, { Component } from 'react'
 import '../styles/common.css'
-import LoginForm from '../components/forms/LoginForm'
-import RegistrationForm from '../components/forms/RegistrationForm'
-import ForgetPassForm from  '../components/forms/ForgetPassForm'
+import Auth from './Pages/Auth';
+import Application from './Pages/Application';
 
 export default class App extends Component {
+
   render() {
+    const login =false;
     return (
       <div className="form">
-      <LoginForm/>
-   <RegistrationForm/>
-   <ForgetPassForm/>
-   
+        {login===true ? <Application/> : <Auth/> }
       </div>
     )
   }

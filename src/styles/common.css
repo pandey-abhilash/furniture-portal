@@ -19,7 +19,7 @@
   width:30ch;
 }
 .btnStyle{
-  margin-top:20px  !important;
+  margin-top:30px  !important;
   margin-bottom:5px;
 }
 
@@ -51,9 +51,11 @@
   
   }
 
-  .btStyle{
-    margin-top:20px  !important;
-    margin-bottom:5px;
-   align-content: left !important;
+  .forget{
+    padding-top:20px;
+    display:flex;
+    flex-direction: column;
+    align-items:center ;
   }
+  
   
